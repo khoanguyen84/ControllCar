@@ -1,0 +1,28 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+table{
+    background-color: orange;
+    border-radius: 50%;
+    padding: 10px;
+    position: relative;
+    top:400px;
+}
+
+button{
+    background-color: green;
+    border:none;
+    outline: none;
+    padding: 5px;
+    color:white;
+    border-radius: 5px;
+    font-size:15px;
+    
+}
+
+button:hover{
+    background-color: darkgreen;
+    cursor: pointer;
+}

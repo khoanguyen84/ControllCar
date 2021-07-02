@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controll car</title>
+    <link rel="stylesheet" href="controllCar.css">
+</head>
+<!--  onkeydown="controllCar(event)" -->
+<body onload="initGame()">
+    <img alt="">
+    <table>
+        <tr>
+            <td></td>
+            <td> <button onclick="moveUp()">&uArr;</button> </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td> <button onclick="moveLeft()">&lArr;</button> </td>
+            <td></td>
+            <td> <button onclick="moveRight()">&rArr;</button> </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td> <button onclick="moveDown()">&dArr;</button> </td>
+            <td></td>
+        </tr>
+    </table>
+    <script src="controllCar.js"></script>
+</body> 
+</html>
