@@ -1,4 +1,23 @@
 const step = 10;
+
+// function buildControlBox(){
+//     let controll = document.getElementsByTagName('table')[0];
+//     controll.innerHTML = `<tr>
+//                                 <td></td>
+//                                 <td> <button onclick="moveUp()">&uArr;</button> </td>
+//                                 <td></td>
+//                             </tr>
+//                             <tr>
+//                                 <td> <button onclick="moveLeft()">&lArr;</button> </td>
+//                                 <td></td>
+//                                 <td> <button onclick="moveRight()">&rArr;</button> </td>
+//                             </tr>
+//                             <tr>
+//                                 <td></td>
+//                                 <td> <button onclick="moveDown()">&dArr;</button> </td>
+//                                 <td></td>
+//                             </tr>`;
+// }
 function initGame() {
     let car = document.getElementsByTagName('img')[0];
     car.src = "images/right.jpg";
@@ -8,6 +27,7 @@ function initGame() {
     car.style.width = "180px";
     car.style.height = "88px";
     car.style.transition = '0.3s';
+    // buildControlBox();
     document.getElementsByTagName('body')[0].addEventListener('keydown', controllCar);
 }
 
